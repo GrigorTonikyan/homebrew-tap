@@ -1,7 +1,7 @@
 class Cddm < Formula
   desc "Polyglot Code De-Duplication Meister & Autonomous Refactoring Engine"
   homepage "https://git.gt-web-dev.com/gt-dev/cddm"
-  version "4.9.2"
+  version "4.10.0"
   license "MIT"
 
   on_macos do
@@ -20,7 +20,7 @@ class Cddm < Formula
       sha256 "0000000000000000000000000000000000000000000000000000000000000000"
     else
       url "https://git.gt-web-dev.com/gt-dev/cddm/releases/download/v#{version}/cddm-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ab4c391822e2eeb824e580d08e1d2d9e4ea8699861e1cf95c5ce910e316ab9f6"
+      sha256 "7e091dcc254ccc1a8100d3af1bb58edb591b8fedb711e7d2aa41b8e52625e4cc"
     end
   end
 
