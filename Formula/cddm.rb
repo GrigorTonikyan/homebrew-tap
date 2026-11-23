@@ -1,13 +1,13 @@
 class Cddm < Formula
   desc "Polyglot Code De-Duplication Meister & Autonomous Refactoring Engine"
   homepage "https://git.gt-web-dev.com/gt-dev/cddm"
-  version "4.12.1"
+  version "4.12.2"
   license "MIT OR Apache-2.0"
 
   on_linux do
     on_intel do
       url "https://git.gt-web-dev.com/gt-dev/cddm/releases/download/v#{version}/cddm-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0aa6387a6051f9352f0f82479970c33429125a277eef66ff8c6e9b135abe77f8"
+      sha256 "87c8e7ef44b4468fa8458542ee0f205e57ad3d87dd674de164566319e1ff69f6"
     end
   end
 
